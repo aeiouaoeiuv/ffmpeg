@@ -1,0 +1,9 @@
+services:
+  ffmpeg:
+    tty: true
+    image: aeiouaoeiuv/alpine:ffmpeg
+    container_name: ffmpeg
+    working_dir: /workspace
+    volumes:
+      - $PWD:/workspace
+
