@@ -1,3 +1,11 @@
+# First of All
+
+enable docker container first
+
+```
+docker compose up -d
+```
+
 # Convert Format
 
 ## mov to mp4
